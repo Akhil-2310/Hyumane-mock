@@ -25,7 +25,7 @@ export default function VerifyPage() {
         version: 2,
         appName: "Hyumane",
         scope: "hyumane",
-        endpoint: "https://hyumane.vercel.app/api/verify",
+        endpoint: "https://hyumane-mock.vercel.app/api/verify",
         logoBase64: "https://i.postimg.cc/mrmVf9hm/self.png",
         userId: newUserId,
         endpointType: "https",
