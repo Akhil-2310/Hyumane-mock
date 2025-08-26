@@ -481,7 +481,7 @@ export default function FeedPage() {
               value={newPost}
               onChange={(e) => setNewPost(e.target.value)}
               placeholder="What's on your mind?"
-              className="w-full p-3 border border-gray-200 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full p-3 border border-gray-200 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-black placeholder:opacity-80"
               rows={3}
             />
             

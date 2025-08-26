@@ -109,7 +109,7 @@ export default function CreateProfilePage() {
                 value={formData.username}
                 onChange={handleChange}
                 required
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 placeholder:text-black placeholder:opacity-80"
                 placeholder="@username"
               />
             </div>
@@ -124,7 +124,7 @@ export default function CreateProfilePage() {
                 value={formData.bio}
                 onChange={handleChange}
                 rows={3}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 placeholder:text-black placeholder:opacity-80"
                 placeholder="Tell us about yourself..."
               />
             </div>
@@ -139,7 +139,7 @@ export default function CreateProfilePage() {
                 name="interests"
                 value={formData.interests}
                 onChange={handleChange}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 placeholder:text-black placeholder:opacity-80"
                 placeholder="Photography, Travel, Technology..."
               />
             </div>

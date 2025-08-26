@@ -52,13 +52,24 @@ export default function LandingPage() {
           <span className="text-2xl font-bold">Hyumane</span>
         </div>
 
-        <button
-          onClick={handleLaunchApp}
-          className="px-6 py-2 rounded-lg font-medium transition-colors hover:opacity-90"
-          style={{ backgroundColor: "#1c7f8f", color: "white" }}
-        >
-          Launch App
-        </button>
+        <div className="flex items-center gap-3">
+        <a
+            href="https://hyumane.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center px-6 py-2 rounded-lg font-medium transition-colors hover:opacity-90"
+            style={{ backgroundColor: "#1c7f8f", color: "white" }}
+          >
+            For Real Passports
+          </a>
+          <button
+            onClick={handleLaunchApp}
+            className="px-6 py-2 rounded-lg font-medium transition-colors hover:opacity-90"
+            style={{ backgroundColor: "#1c7f8f", color: "white" }}
+          >
+            Launch App
+          </button>
+        </div>
       </nav>
 
 
